@@ -11,6 +11,8 @@ public class Program
         }else{
             if(n<0){
                 System.out.println("El numero es negativo");
+            }else{
+                System.out.println("El numero es neutro")
             }
         }
     }
