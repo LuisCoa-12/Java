@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Program
+{
+    public static void main(String[] args) {
+        
+        Scanner scan = new Scanner(System.in);
+        System.out.println ("Ingresa el radio");
+        double radio = scan.nextDouble();
+        double area;
+        
+        area = 3.141592*(Math.pow(radio,2));
+        System.out.println ("El area del circulo es: " + area);
+    }
+}
