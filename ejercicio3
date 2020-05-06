@@ -12,7 +12,7 @@ public class Program
             if(n<0){
                 System.out.println("El numero es negativo");
             }else{
-                System.out.println("El numero es neutro")
+                System.out.println("El numero es neutro");
             }
         }
     }
