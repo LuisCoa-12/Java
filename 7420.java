@@ -20,6 +20,10 @@ public class Ejercicio
                 }else{
                     if(n<10000){
                         System.out.println("El numero tiene 4 cifra");
+                    }else{
+                        if(n<100000){
+                            System.out.println("El numero tiene 5 cifras");
+                        }
                     }
                 }
             }
