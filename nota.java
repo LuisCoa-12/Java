@@ -7,6 +7,10 @@ public class Program
         System.out.println("ingrsa la nota");
         nota = scan.nextInt();
         switch (nota){
+            case 0:
+            System.out.println("cero");
+            break;
+                
             case 1 :
             System.out.println("uno");
             break;
