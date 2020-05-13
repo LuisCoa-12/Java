@@ -5,7 +5,7 @@ public class Program
         double CATE, SUE;
         Scanner scan = new Scanner(System.in);
         
-        System.out.println("Ingrese la categoria")
+        System.out.println("Ingrese la categoria");
         CATE = scan.nextInt();
         
         System.out.println("Ingrese el sueldo");
