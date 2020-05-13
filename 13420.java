@@ -3,13 +3,14 @@ public class Program
 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        double sueldo;
+        double SUE, AUM;
         
         System.out.println("Ingrese su sueldo");
-        sueldo = scan.nextInt();
+        SUE = scan.nextInt();
         
         if(sueldo<1000){
-            sueldo = sueldo + sueldo*0.15;
+            AUM = SUE*0.15; 
+            SUE = SUE + AUM;
         }
         System.out.println("Su nuevo sueldo es: " + sueldo);
     }
