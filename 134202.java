@@ -6,10 +6,10 @@ public class Program
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Ingrese la categoria");
-        CATE = scan.nextInt();
+        CATE = scan.nextDouble();
         
         System.out.println("Ingrese el sueldo");
-        SUE = scan.nextInt();
+        SUE = scan.nextDouble();
         
         switch(CATE){
             case 1:
