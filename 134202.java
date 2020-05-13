@@ -2,11 +2,12 @@ import java.util.Scanner;
 public class Program
 {
     public static void main(String[] args) {
-        double CATE, SUE;
+        double SUE;
+        int CATE;
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Ingrese la categoria");
-        CATE = scan.nextDouble();
+        CATE = scan.nextInt();
         
         System.out.println("Ingrese el sueldo");
         SUE = scan.nextDouble();
