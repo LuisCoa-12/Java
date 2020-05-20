@@ -8,7 +8,7 @@ public class Negativo
         System.out.println("Ingresa el numero");
         num = scan.nextInt();
         
-        while(num > 0){
+        while(num >= 0){
             i++;
             System.out.println("Ingresa otro numero");
             num = scan.nextInt();
