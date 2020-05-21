@@ -3,11 +3,8 @@ public class Reto
 {
     public static void main(String[] args) {
         int num, i = 1, sumimp = 0;
-	      double prom=0,  sumpar = 0, contpar = 0;
+        double prom=0,  sumpar = 0, contpar = 0;
         Scanner scan = new Scanner(System.in);
-        
-        System.out.println("Ingresa el numero");
-        num = scan.nextInt();
         
         while(i<=270){
             System.out.println("Ingresa el numero");
