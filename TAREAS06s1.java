@@ -3,7 +3,7 @@ public class Tarea
 {
     public static void main(String[] args) {
         int num, i = 0, suma_impar = 0;
-		double prom=0,  suma_par = 0, cont_par = 0;
+	double prom=0,  suma_par = 0, cont_par = 0;
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Ingresa el numero");
