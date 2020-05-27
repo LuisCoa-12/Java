@@ -1,22 +1,26 @@
 import java.util.Scanner;
-public class Suma{
+public class Program{
     public static void main(String[] args) {
         
-        int num, suma, cantidad, i;
-        suma = 0;
-        i = 1;
+        int n[] = new int[4];
+        ///acumulador
+        n[0] = 0;
+        ///contador
+        n[1] = 1;
         Scanner scan = new Scanner(System.in);
         
         System.out.println("Ingresar la cantidad de numeros que se van a sumar");
-        cantidad = scan.nextInt();
+        ///cantidad
+        n[2] = scan.nextInt();
         
         do{
-            System.out.println("Ingresa el numero " + i);
-            num = scan.nextInt();
-            suma+=num;
-            i++;
+            System.out.println("Ingresa el numero " + n[1]);
+            ///numero
+            n[3] = scan.nextInt();
+            n[0]+=n[3];
+            n[1]++;
         }
-        while(i<=cantidad);
-        System.out.println("La suma de los numeros es: " + suma);
+        while(n[1]<=n[2]);
+        System.out.println("La suma de los numeros es: " + n[0]);
     }
 }
