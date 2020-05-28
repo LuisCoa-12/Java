@@ -4,19 +4,19 @@ public class Fibonacii{
 
         Scanner scan = new Scanner(System.in);
 
-        int elementos, a, b, c, i;
-        a = 0;
-        b = 1;
-        c = 1;
+        int elementos, n1, n2, n3, i;
+        n1 = 0;
+        n2 = 1;
+        n3 = 1;
         i = 1;
 
         System.out.println("Ingresa el numero de elementos para la sucesion: ");
         elementos = scan.nextInt();
         do{
-            System.out.println(a);
-            c = a + b;
-            a = b;
-            b = c;
+            System.out.println(n1);
+            n3 = n1 + n2;
+            n1 = n2;
+            n2 = n3;
             i++;
         }while(i<=elementos);
     }
