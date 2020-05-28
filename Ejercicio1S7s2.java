@@ -13,7 +13,7 @@ public class Fibonacii{
     System.out.println("Ingresa el numero de terminos para la suma: ");
     terminos = in.nextInt();
     do{
-        System.out.print(a + ", ");
+        System.out.println(a);
         c = a + b;
         a = b;
         b = c;
