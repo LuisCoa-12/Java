@@ -1,11 +1,14 @@
 public class Encuentro{
     public static void main(String[] args) {
     
-        int k1, k2, distancia, encuentro;
+        int k1, k2, encuentro;
         k1 = 70;
         k2 = 150;
-        distancia = k2 - k1;
-        encuentro = distancia/2 + 70;
-        System.out.println("Se encontraran en el kilometro " + encuentro);
+        do{
+            k1+=1;
+            k2-=1;
+            encuentro = k2 - k1;
+        }while(encuentro>0);
+        System.out.println("Se encontraran en el kilometro " + k1);
     }
 }
