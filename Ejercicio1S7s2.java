@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Fibonacii{
     public static void main(String[] args) {
     
-    Scanner in = new Scanner(System.in);
+    Scanner scan = new Scanner(System.in);
     
     int terminos, a, b, c, i;
     a = 0;
@@ -11,7 +11,7 @@ public class Fibonacii{
     i = 1;
     
     System.out.println("Ingresa el numero de terminos para la suma: ");
-    terminos = in.nextInt();
+    terminos = scan.nextInt();
     do{
         System.out.println(a);
         c = a + b;
