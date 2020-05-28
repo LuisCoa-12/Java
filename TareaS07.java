@@ -11,8 +11,9 @@ public class Program{
             cantidad = scan.nextInt();
             
             ahorro = ahorro + cantidad;
-            System.out.println("El ahorro del mes " + contador + " es " + ahorro);
+            System.out.println("El ahorro del mes " + contador + " es " + cantidad);
             contador++;
         }while(contador<=12);
+        System.out.println("El ahorro total es: " + ahorro);
     }
 }
