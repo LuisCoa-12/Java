@@ -12,6 +12,6 @@ public class Program
             System.out.println("Ingresa otro numero");
             num = scan.nextInt();
         }
-        System.out.println("Se introdujeron "+ i + " numeros.");
+        System.out.println("Se han introducido "+ i + " numeros.");
     }
 }
