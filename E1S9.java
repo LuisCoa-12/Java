@@ -3,7 +3,9 @@ public class Program
 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        double suma=0 , promedio=0;
+        double suma, promedio;
+        suma = 0;
+        promedio = 0;
         int[] numeros = new int[4];
         
         for(int i = 0; i<4; i++){
