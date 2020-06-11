@@ -7,7 +7,7 @@ public class Program
         int[] numeros = new int[4];
         
         for(int i = 0; i<4; i++){
-            System.out.println("Ingresa un valor");
+            System.out.println("Ingresa el numero");
             numeros[i] = scan.nextInt();
             suma+=numeros[i];
         }
